@@ -8,8 +8,8 @@
       "emitDecoratorMetadata": true,
       "baseUrl": "./src",
       "paths": {
-        "@shared/*": ["shared/*"],
-        "@modules/*": ["modules/*"]
+        "@core/*": ["core/*"],
+        "@backcoffe/*": ["backoffice/*"]
       },
       "resolveJsonModule": true,
       "types": ["node"],
@@ -25,7 +25,5 @@
       "noImplicitReturns": true,                        
       "noFallthroughCasesInSwitch": true,           
       "skipLibCheck": false             
-    },
-    "include": ["src"],
-    "exclude": ["node_modules"],
+    }
 }
